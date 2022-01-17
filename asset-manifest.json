@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sharanproto/static/css/main.ce5f8c2b.css",
+    "main.js": "/sharanproto/static/js/main.08723282.js",
+    "static/js/787.86e70ff7.chunk.js": "/sharanproto/static/js/787.86e70ff7.chunk.js",
+    "static/media/github.png": "/sharanproto/static/media/github.6210a6d6c511f6d0625f.png",
+    "static/media/twitter.png": "/sharanproto/static/media/twitter.163608e1305a9a132cf5.png",
+    "static/media/instagram.png": "/sharanproto/static/media/instagram.4fe273bd695cac99883e.png",
+    "static/media/floyden.jpg": "/sharanproto/static/media/floyden.5984a2bd62f531a6f2bc.jpg",
+    "static/media/linkedin.png": "/sharanproto/static/media/linkedin.b7ab8b43f37f0040be07.png",
+    "static/media/folder.png": "/sharanproto/static/media/folder.e6bef6bca3fe0d5e57c2.png",
+    "index.html": "/sharanproto/index.html",
+    "main.ce5f8c2b.css.map": "/sharanproto/static/css/main.ce5f8c2b.css.map",
+    "main.08723282.js.map": "/sharanproto/static/js/main.08723282.js.map",
+    "787.86e70ff7.chunk.js.map": "/sharanproto/static/js/787.86e70ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce5f8c2b.css",
+    "static/js/main.08723282.js"
+  ]
+}
