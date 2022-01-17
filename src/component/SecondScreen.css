@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  list-style: none;
+  position: relative;
+  bottom: 280px;
+  left: 35px;
+}
+
+.vl {
+  border-left: 3px solid #9ea8c7;
+  height: 80px;
+  margin-left: 8px;
+  margin-top: 25px;
+}
+.v2 {
+  border-left: 3px solid #9ea8c7;
+  height: 80px;
+  margin-top: 25px;
+  margin-right: 8px;
+}
+
+.email {
+  writing-mode: tb-rl;
+  color: #9ea8c7;
+  text-decoration: none;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+}
+.myemail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  bottom: 250px;
+  left: 100px;
+}
+
+.socialmediafixed {
+  height: 0px;
+}
+.myemailfixed {
+  height: 0px;
+}
+
+.container {
+  position: fixed;
+}
+
+@media (max-width: 767px) {
+  .socialmedia {
+    display: none;
+  }
+  div .myemail{
+     display: none;
+  }
+}

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+
+.nav-custom {
+  background-color: #0a192f;
+}
+
+.nav.navbar-nav li .nav-link {
+  font-size: 13px;
+  color: #ccd6f6 !important;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.navbar-brand {
+  color: #5ef1cf !important;
+  padding-left: 2.5rem;
+  font-family: "Island Moments", cursive;
+  font-size: 50px;
+}
+
+li {
+  display: table-cell;
+  position: relative;
+  padding: 15px 0;
+}
+.nav-linka {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.nav-linka:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-linka:hover:after {
+  width: 100%;
+  left: 0;
+}
+@media screen and (max-height: 300px) {
+  ul {
+    margin-top: 40px;
+  }
+}
+
+.btn {
+  position: relative;
+  bottom: 10px;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    font-size: 40px;
+    padding-left: 0.5rem;
+  }
+}

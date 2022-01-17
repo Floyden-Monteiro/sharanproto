@@ -1,0 +1,77 @@
+.contactcontainer {
+  height: 100vh;
+  position: relative;
+  top: 80px;
+  align-items: center;
+  text-align: center;
+}
+
+.h2a {
+  font-weight: 600;
+  color: #ccd6f6;
+  line-height: 1.1;
+}
+
+.contactp {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 30px;
+  margin-bottom: 90px;
+}
+
+.contactbtn {
+  text-decoration: none;
+  color: #64ffda;
+  background-color: transparent;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+  font-size: 14px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 60px;
+}
+
+.contactbtn:hover {
+  color: #000;
+  background-color: #ccd6f6;
+}
+
+.fmfooter {
+  margin-top: 180px;
+  margin-bottom: -50px;
+}
+
+.foottext {
+  text-decoration: none;
+  color: #a8b2d1;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .contactp {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 70px;
+    margin-bottom: 60px;
+  }
+  .h2a {
+    height: 20px;
+    /* padding-top: 700px; */
+  }
+  .fmfooter {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .contactcontainer {
+    height: 10px;
+   
+  }
+  .fmfooter {
+   
+    padding-bottom: 20px;
+  }
+
+}

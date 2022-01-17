@@ -1,0 +1,118 @@
+.div {
+  height: 100vh;
+}
+
+.aboutme {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 500px;
+  left: 150px;
+  margin: 10px 0px 40px;
+  padding-top: 80px;
+  font-size: clamp(26px, 5vw, 32px);
+  color: #ccd7f7;
+}
+
+hr {
+  position: relative;
+  display: block;
+  left: 310px;
+  bottom: 55px;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  width: 300px;
+  padding: 0;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  color: #747f9c;
+}
+p {
+  color: #747f9c;
+  font-size: 20px;
+}
+.pr:before {
+  content: "▹";
+  display: block;
+  float: left;
+  width: 1.2em;
+  color: #64ffda;
+}
+
+td.lefttext {
+  padding-left: 150px;
+  width: 600px;
+}
+
+.prgnm {
+  display: flex;
+}
+
+.prg1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 150px;
+  margin: 0;
+  padding: 0;
+  line-height: 2px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 13px;
+}
+
+.prg2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 350px;
+  line-height: 2px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 13px;
+}
+
+.floyden img {
+  padding-left: 50px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  float: left;
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  transition: transform 1s;
+}
+td .floyden img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+  .div {
+    position: relative;
+    right: 120px;
+  }
+  hr {
+    position: relative;
+    display: block;
+    left: 290px;
+    bottom: 55px;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    width: 150px;
+    padding: 0;
+  }
+  td.lefttext {
+    display: grid;
+    grid-template-columns: 1fr ;
+    width: 450px;
+  }
+
+  .floyden img {
+    display: none;
+  }
+  .mobilew {
+  }
+}
