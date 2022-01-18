@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/" exact component={FirstScreen} />
+        <FirstScreen/>
         <Route path="/" component={SecondPage} />
       </Switch>
      
